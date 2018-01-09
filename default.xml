@@ -3,10 +3,10 @@
     <remote name="origin"
         fetch="https://gerrit.onap.org/r"
         review="https://gerrit.onap.org/"
-        revision="master" />
-    <default revision="master"
+        revision="amsterdam" />
+    <default revision="amsterdam"
         remote="origin"
-        sync-j="4" />
+        sync-j="8" />
     <project path="aaf/authz" name="aaf/authz" groups="build,aaf"/>
     <project path="aaf/cadi" name="aaf/cadi" groups="build,aaf"/>
     <project path="aaf/inno" name="aaf/inno" groups="build,aaf"/>
