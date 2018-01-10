@@ -4,7 +4,7 @@
         fetch="https://gerrit.onap.org/r"
         review="https://gerrit.onap.org/"
         revision="amsterdam" />
-    <default revision="amsterdam"
+    <default revision="master"
         remote="origin"
         sync-j="8" />
     <project path="aaf/authz" name="aaf/authz" groups="build,aaf"/>
